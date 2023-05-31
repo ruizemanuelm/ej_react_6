@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import "./App.css";
 import Formulario from "./components/Formulario";
-import Cards from "./components/Cards";
 
 function App() {
   return (

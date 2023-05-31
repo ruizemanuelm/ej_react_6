@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardGroup, Card, Button } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 const Cards = () => {
   return (
     <article className="col-md-4 my-1">
