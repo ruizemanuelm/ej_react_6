@@ -7,7 +7,7 @@ let [color, SetColor] = useState('')
 let [colores, SetColores] = useState([])
 const handleSubmit = (e)=> {
 e.preventDefault()
-SetColores([...colores,color])
+SetColores([ ... colores, color])
 SetColor('')
 } 
   return (
@@ -31,10 +31,9 @@ SetColor('')
           </Form>
         </Card.Body>
       </Card>
+
       <Container className="my-5 row justify-content-between">
-        <Cards></Cards>
-        <Cards></Cards>
-        <Cards></Cards>
+        <Cards colores = {colores}></Cards>
       </Container>
     </>
   );

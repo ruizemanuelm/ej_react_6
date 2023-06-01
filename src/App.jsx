@@ -9,7 +9,6 @@ function App() {
       <Container className="my-2  main">
         <Formulario></Formulario>
       </Container>
-        
       <footer className="bg-dark p-3 text-danger text-center">
         <p>Todos los derechos reservados </p>
       </footer>
