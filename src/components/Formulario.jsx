@@ -10,6 +10,7 @@ e.preventDefault()
 SetColores([ ... colores, color])
 SetColor('')
 } 
+
   return (
     <>
       <Card className="text-center my-3">
@@ -22,7 +23,7 @@ SetColor('')
                 onChange={(e) => SetColor(e.target.value)} value={color}
                 className="me-2"
                 type="text"
-                placeholder="Ingrese un color. Ej: rojo"
+                placeholder="Ingrese un color. Ej: red"
               />
               <Button type="submit" variant="info">
                 agregar
